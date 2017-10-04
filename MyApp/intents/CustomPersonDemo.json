@@ -1,0 +1,57 @@
+{
+  "id": "84a28b6c-1730-4b7f-abf9-e97289a4855d",
+  "name": "CustomPersonDemo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f69f6e42-355f-4e83-ac3f-cbfd1f35452b",
+          "dataType": "@CutomPerson",
+          "name": "CutomPerson",
+          "value": "$CutomPerson",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1505977265021,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "861b7724-9266-4eff-b283-270d2dfe3655",
+      "data": [
+        {
+          "text": "Add CustomPerson "
+        },
+        {
+          "text": "John",
+          "alias": "CutomPerson",
+          "meta": "@CutomPerson",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

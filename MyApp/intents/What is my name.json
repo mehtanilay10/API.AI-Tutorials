@@ -1,0 +1,55 @@
+{
+  "id": "896d14cc-fcc6-4047-bc90-b0c563e54098",
+  "name": "What is my name",
+  "auto": true,
+  "contexts": [
+    "Name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Name",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "#Name.any"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506074882,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "AskName"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "2554293d-0e82-40b2-81c7-4c19a64413c3",
+      "data": [
+        {
+          "text": "What is my name"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

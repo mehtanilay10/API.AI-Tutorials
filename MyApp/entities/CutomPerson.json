@@ -1,0 +1,17 @@
+{
+  "id": "ba0a12ed-eb41-4a4e-94fc-904d6bb334ab",
+  "name": "CutomPerson",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "John",
+      "synonyms": [
+        "John",
+        "Johny",
+        "Joy"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

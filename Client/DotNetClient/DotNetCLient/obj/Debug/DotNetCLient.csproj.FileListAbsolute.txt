@@ -1,0 +1,10 @@
+C:\Users\mehta\Source\Repos\DotNetCLient\DotNetCLient\bin\Debug\DotNetCLient.exe.config
+C:\Users\mehta\Source\Repos\DotNetCLient\DotNetCLient\bin\Debug\DotNetCLient.exe
+C:\Users\mehta\Source\Repos\DotNetCLient\DotNetCLient\bin\Debug\DotNetCLient.pdb
+C:\Users\mehta\Source\Repos\DotNetCLient\DotNetCLient\bin\Debug\ApiAiSDK.dll
+C:\Users\mehta\Source\Repos\DotNetCLient\DotNetCLient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mehta\Source\Repos\DotNetCLient\DotNetCLient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mehta\Source\Repos\DotNetCLient\DotNetCLient\obj\Debug\DotNetCLient.csprojResolveAssemblyReference.cache
+C:\Users\mehta\Source\Repos\DotNetCLient\DotNetCLient\obj\Debug\DotNetCLient.csproj.CoreCompileInputs.cache
+C:\Users\mehta\Source\Repos\DotNetCLient\DotNetCLient\obj\Debug\DotNetCLient.exe
+C:\Users\mehta\Source\Repos\DotNetCLient\DotNetCLient\obj\Debug\DotNetCLient.pdb

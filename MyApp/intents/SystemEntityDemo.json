@@ -1,0 +1,94 @@
+{
+  "id": "c683c5ca-e7cf-4b5f-b96f-d6c97f0dc9e3",
+  "name": "SystemEntityDemo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AddReminder",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d01b49b3-8382-4a31-86ff-e587ca95c86b",
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1505978377,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "0fe0a6e0-3e13-4deb-ae4e-57bbd4401c00",
+      "data": [
+        {
+          "text": "inform me on "
+        },
+        {
+          "text": "date",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1505976568,
+      "isAuto": false
+    },
+    {
+      "id": "02960ee2-3441-4964-9bcf-dc1f36531dc5",
+      "data": [
+        {
+          "text": "set reminder on "
+        },
+        {
+          "text": "tommorow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1505976568,
+      "isAuto": false
+    },
+    {
+      "id": "7f901a63-9d2a-4bd8-80c4-7070d6a0e9cf",
+      "data": [
+        {
+          "text": "Remind me on "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1505976568,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

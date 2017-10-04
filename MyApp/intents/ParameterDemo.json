@@ -1,0 +1,99 @@
+{
+  "id": "3095e83a-2924-42ce-91db-307fed5f516f",
+  "name": "ParameterDemo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "36663525-01ef-43fc-898f-e3c7429d1cee",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number1",
+          "value": "$number1",
+          "isList": false
+        },
+        {
+          "id": "7c85d825-e1b4-4af7-84b8-3d9f9a8a4c43",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number2",
+          "value": "$number2",
+          "isList": false
+        },
+        {
+          "id": "d87d7376-8761-4886-af34-f4d9fb3331a2",
+          "dataType": "@sys.number",
+          "name": "allnumbers",
+          "value": "$allnumbers",
+          "prompts": [],
+          "defaultValue": "0",
+          "isList": true
+        },
+        {
+          "id": "5e3f2710-3f38-4b6b-a290-f5ba8ca45a08",
+          "name": "version",
+          "value": "1.0",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1505979507,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "e7cf532a-e9eb-404a-ad2b-29312daa10de",
+      "data": [
+        {
+          "text": "ParameterDemo "
+        },
+        {
+          "text": "number1",
+          "alias": "number1",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "number2",
+          "alias": "number2",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "allnumbers",
+          "alias": "allnumbers",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

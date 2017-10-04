@@ -1,0 +1,55 @@
+{
+  "id": "20614c4b-71e5-440f-b81c-7b5ecddf32be",
+  "name": "Rich Messages",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "slack",
+          "title": "Want to see sum demo",
+          "replies": [
+            "sum of 30 and 40"
+          ],
+          "id": "c276beff-a381-47f5-9062-d9fa58b9da38",
+          "lang": "en"
+        },
+        {
+          "type": 0,
+          "speech": "Hello"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506076282,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "84f071a2-10a6-4aad-8ddd-7a283dd100bc",
+      "data": [
+        {
+          "text": "show me rich message"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

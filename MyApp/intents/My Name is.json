@@ -1,0 +1,63 @@
+{
+  "id": "1549c898-f675-4e7f-8c18-31dba540cfcc",
+  "name": "My Name is",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Name",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cc5c1010-f0f8-4539-8361-20c9fcdc079c",
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1506073514740,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "6055426e-15be-4426-804e-f8bf7cb3dff9",
+      "data": [
+        {
+          "text": "My Name is "
+        },
+        {
+          "text": "Nilay",
+          "alias": "any",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

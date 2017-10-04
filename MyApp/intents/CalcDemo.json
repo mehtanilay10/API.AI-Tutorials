@@ -1,0 +1,100 @@
+{
+  "id": "6f19f05f-73ca-4ee5-b57a-c2a42d99cd2d",
+  "name": "CalcDemo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "79c3cbfb-7fd2-4077-ad22-1c4fb93b80d7",
+          "dataType": "@sys.number",
+          "name": "num1",
+          "value": "$num1",
+          "isList": false
+        },
+        {
+          "id": "d508514d-4220-4c36-bb06-f61ede0f653f",
+          "dataType": "@sys.number",
+          "name": "num2",
+          "value": "$num2",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1506082769,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "3aedf251-d7b8-4e9a-82b0-56c3e724f7d8",
+      "data": [
+        {
+          "text": "add "
+        },
+        {
+          "text": "10",
+          "alias": "num1",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "20",
+          "alias": "num2",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1506082769,
+      "isAuto": false
+    },
+    {
+      "id": "ec6b6b99-365c-4f63-9105-e204f990fd4a",
+      "data": [
+        {
+          "text": "sum of "
+        },
+        {
+          "text": "10",
+          "alias": "num1",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "20",
+          "alias": "num2",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
